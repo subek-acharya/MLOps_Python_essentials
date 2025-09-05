@@ -17,5 +17,5 @@ def main(path, sort):
 if __name__ == "__main__":
     main()
 
-## Command Line sample: python jformat.py examples/examples.json    # It runs with sort value false
+## Command Line sample: python jformat_click.py examples/examples.json    # It runs with sort value false
 ## Command Line sample: python jformat_click.py --sort examples/examples.json       # It runs by passing the sort value, hence sorting the output

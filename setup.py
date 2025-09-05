@@ -1,13 +1,16 @@
 from setuptools import setup, find_packages
 
+with open('requirements.txt', 'r') as _f:
+    requirements = [line for line in _f.read().split('\n') ]
+
 setup(
-    name="jformat",
+    name="summarize",
     version="0.0.1",
-    description="Reformats files to stdout",
-    install_requires = ["click", "colorama"],
+    description="CLI tool to summarize text using huggingface",
+    install_requires = requirements,
     entry_points="""
     [console_scripts]
-    jformat= custom_cli.jformat:main
+    summarize= huggingface.summarize:main        
     """,
     author="Subek Acharya",
     author_email="subekacharya@uri.edu",

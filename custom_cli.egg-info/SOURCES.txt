@@ -1,7 +1,0 @@
-setup.py
-custom_cli.egg-info/PKG-INFO
-custom_cli.egg-info/SOURCES.txt
-custom_cli.egg-info/dependency_links.txt
-custom_cli.egg-info/entry_points.txt
-custom_cli.egg-info/requires.txt
-custom_cli.egg-info/top_level.txt
