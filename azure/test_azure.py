@@ -2,10 +2,10 @@ from azureml.core import Workspace
 from azureml.core.authentication import ServicePrincipalAuthentication, InteractiveLoginAuthentication
 
 workspace_name = "demo-try-azureml"
-subscription_id = "ec5fcd7c-27be-4f68-9e3e-521b665faa5d"
+subscription_id = "" # Add your subscription Id by logging to your account
 resource_group = "demo-try-azureml"
-tenant_id = "426d2a8d-9ccd-4255-893d-0686a32"  # Only needed for interactive login if required
-workspace_region = "eastus2"
+tenant_id = "" # Add your tenant id # Only needed for interactive login if required
+workspace_region = "" # Add your workspace region
 
 
 try:
